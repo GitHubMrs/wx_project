@@ -1,0 +1,36 @@
+
+
+
+
+
+.content{
+  width: 750rpx;
+  height: auto;
+  margin: 10rpx;
+  background-color: yellowgreen;
+  flex-wrap:  wrap;
+}
+
+.image{
+width: 330rpx;
+height:330rpx
+}
+.textLayout{
+width: 330rpx;
+height:330rpx;
+margin: 5rpx;
+  display:  flex;
+  flex-direction:  row;
+  justify-content:space-between;
+}
+
+.text {
+  color: red;
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.buyIcon {
+  width: 50rpx;
+  height: 50rpx;
+}

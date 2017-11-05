@@ -1,0 +1,48 @@
+<view class='container'>
+<!-- 跑马灯 -->
+<view class='box'>
+<view style='left:{{leftNum}}px'class='txt'>玉豫源小程序正式上线了，欢迎大家前来惠顾！！！</view>
+</view>
+
+<!-- 轮播图 -->
+<import src='bannerTemplate.wxml'/>
+<template is='banner'data='{{imgUrls}}'/>
+
+<!-- 跑马灯Two -->
+<view class='marqueeGroup'>
+<text class='textStyle'>早知道</text>
+
+<swiper class='marqueeGroup'  vertical='true'circular='true'
+  autoplay='true' interval='3000' duration='500'>
+  <block wx:for="{{marqueeInfo}}">
+    <swiper-item>
+      <text class="marqueeStyle">{{item}}</text>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+
+<!-- showProduct展示商品选项容器 -->
+<view class='content'>
+<view class='content-item'wx:for='{{resInfo}}'>
+<image class='content-item-image' src='{{item.image}}'/>
+<text class='content-item-text'>{{item.text}}</text>
+</view>
+</view>
+
+<!-- 跑马灯There -->
+<view class='marqueeGroup'>
+<text space='emsp' style="background-color:blue" class='textStyle'>推 荐</text>
+
+<swiper class='marqueeGroup'  vertical='true'circular='true'
+  autoplay='true' interval='2000' duration='700'>
+  <block wx:for="{{marqueeInfo}}">
+    <swiper-item>
+      <text style="background-color:yellow" class="marqueeStyle">{{item}}</text>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+
+<image class='pictureStyle' src='{{showPicture}}'></image>
+</view>

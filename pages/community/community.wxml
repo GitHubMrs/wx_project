@@ -1,0 +1,29 @@
+<view class='content'>
+
+<!-- 顶部展图片 -->
+  <image class='imageTop' src='../../image/community/imageTop.jpg' />
+
+
+<!-- 发帖统计 -->
+  <view class='layoutGroup'>
+    <view class='layout' wx:for='{{noteInfo}}'>
+      <text class='noteItem'>{{item.title}}</text>
+      <text class='noteItem'>{{item.info}}</text>
+    </view>
+  </view>
+
+
+<!-- 开关按钮 -->
+
+<block wx:for='{{switchInfo}}'>
+<view class='switchLayout'>
+<text class='itemLayout'>{{item[0]}}</text>
+<switch class='itemLayout'data-hi='{{item[2]}}' id='{{item[1]}}'bindchange='bindAction'/>
+</view>
+<view hidden='{{visibility}}' class='switchLayout HiddenLayout'>
+  <image class='switch-image' src=''></image>
+  <text class='switch-title'>{{title}}</text>
+  <text class='switch-disc'>{{disc}}</text>
+</view>
+</block>
+</view>

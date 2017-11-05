@@ -1,0 +1,11 @@
+<!-- 轮播图 -->
+<template name='banner'>
+<swiper indicator-dots='true' circular='true'indicator-color='while'indicator-active-color='green'
+  autoplay="true" interval="3000"          duration="500">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image class="slide-image" src="{{item}}"/>
+    </swiper-item>
+  </block>
+</swiper>
+</template>

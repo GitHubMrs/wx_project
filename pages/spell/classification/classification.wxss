@@ -1,0 +1,46 @@
+.clazz {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+/* 列表 */
+
+.imageText { 
+  width: 200rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 200rpx;
+  height: 200rpx;
+}
+
+/* showProduct展示商品选项容器 */
+
+.content {
+  width: 550rpx;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content-item {
+  width: 275rpx;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.content-item-image {
+  width: 220rpx;
+  height: 220rpx;
+  margin: 10rpx;
+}

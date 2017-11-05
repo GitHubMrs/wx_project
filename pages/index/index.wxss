@@ -1,0 +1,90 @@
+.container{
+  background-color: darkgray;
+}
+
+.box{
+  background-color:  chartreuse;
+  width: 100%;
+  max-width: 100%;
+  height: 70rpx;
+  overflow: hidden;
+  position: relative;
+}
+
+.txt{
+  position:  absolute;
+  line-height: 70rpx;
+  color:  coral;
+}
+
+.slide-image {
+  height: 100%;
+  width: 100%;
+}
+
+.marqueeGroup {
+  background-color:  chartreuse;
+  width: 100%;
+  height: 50rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:  center;
+ 
+  margin-bottom: 10rpx;
+  margin-top: 10rpx;
+}
+
+.textStyle {
+  width: 20%;
+  height: 50rpx;
+  /* border:  solid 1rpx black; */
+  background-color: red;
+  color: yellowgreen;
+  border-radius:  7rpx;
+}
+
+.marqueeStyle {
+   width: 70%;
+  height: 50rpx;
+  background-color:  chartreuse;
+  margin-left: 30rpx;
+  color: black;
+}
+
+/* showProduct展示商品选项容器 */
+.content{
+  display: flex;
+  flex-direction:  row;
+  flex-wrap:  wrap;
+justify-content:  center;
+}
+
+.content-item{
+  width: 45%;
+  height: 250rpx;
+  margin: 2px;
+  background-color:  blueviolet;  
+  position:  relative;
+}
+
+.content-item-image{
+width: 100%;
+height: 100%;
+}
+.content-item-text{
+  position: absolute;
+  bottom: 0px;
+background: -webkit-linear-gradient(bottom,rgba(0,0,0,0.3),rgba(255,255,0,1));
+font-size: 40rpx;
+height:55rpx;
+width:100%;
+color: black;
+display: flex;
+flex-direction:  column;
+justify-content:  flex-end;
+}
+.pictureStyle{
+  width:100%;
+  height: 300rpx; 
+}

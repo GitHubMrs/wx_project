@@ -1,0 +1,15 @@
+<view class='content'>
+
+<block wx:for='{{itemSet}}'>
+
+<image class ='image'src='{{itemSet[index]}}'/>
+
+<view class='textLayout'>
+
+<text class='text'>{{item.text}}</text>
+
+<image class='buyIcon' src='buyCar.png'/>
+
+</view>
+</block>
+</view>

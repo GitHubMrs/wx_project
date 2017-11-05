@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/spell/classification/classification",
+
+    "pages/index/index",
+    "pages/community/community",
+    "pages/spell/spell",
+    "pages/spell/classification/itemDesc/itemDesc",
+    "pages/spell/activityList/activityList",
+    "pages/spell/home/home",
+    "pages/spell/myGroup/myGroup",
+    "pages/shop/shop"
+
+  ],
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+
+  "tabBar": {
+    "backgroundColor": "#00FF00",
+    "color": "#333333",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/homeSelect.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "iconPath": "image/communityOne.png",
+        "selectedIconPath": "image/communityOneSelect.png",
+        "text": "社区"
+      },
+      {
+        "pagePath": "pages/spell/home/home",
+        "iconPath": "image/spell.png",
+        "selectedIconPath": "image/spellSelect.png",
+        "text": "拼多多"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "iconPath": "image/shopOne.png",
+        "selectedIconPath": "image/shopOneSelect.png",
+        "text": "商城"
+      }
+    ]
+  }
+}

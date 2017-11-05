@@ -1,0 +1,87 @@
+@import '../../index/index.wxss';
+
+.buyPrice {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25rpx;
+  background-color: darkkhaki;
+}
+
+.textColor {
+  color: deeppink;
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+.OpenGroupExplan {
+  margin-top: 25rpx;
+  color: sandybrown;
+  background-color: seagreen;
+  display: flex;
+  flex-direction: column;
+}
+/* 商品详情 */
+.textDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.priceDetails {
+  color: crimson;
+  margin: 25rpx;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  text-decoration-line: underline;
+}
+
+.priceTile {
+  margin: 25rpx;
+  color: red;
+}
+
+.pricePrompt {
+  margin: 25rpx;
+  background-color: yellow;
+  color: blue;
+}
+
+.priceDisOne {
+  background-color: red;
+  color: yellow;
+  margin: 25rpx;
+}
+
+.priceDisTwo {
+  background-color: yellow;
+  color: red;
+  margin: 25rpx;
+}
+
+.priceDisThree {
+  margin-bottom: 25rpx;
+  margin-left: 8rpx;
+  margin-right: 8rpx;
+  color: green;
+}
+
+.imageSet {
+   width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

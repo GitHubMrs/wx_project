@@ -1,0 +1,40 @@
+<view class='container'>
+  <!-- 轮播图 -->
+  <import src='../../index/bannerTemplate.wxml' />
+  <template is='banner' data='{{imgUrls}}' />
+</view>
+
+<!-- 组团方式 -->
+<view class='buyPrice'>
+  <view class='text'>
+    <text class='textColor'>2人组团购</text>
+    <text>天然和田玉白玉平安扣</text>
+  </view>
+  <view class='text'>
+    <text class='textColor'>¥99.9/1件</text>
+    <text class='line'>¥128</text>
+
+  </view>
+  <view class='text'>
+    <text>已有1000人参团</text>
+    <text>销售10000件</text>
+ </view>
+</view>
+<view class='OpenGroupExplan'>
+  <text>{{OpenGroupExplanOne}}</text>
+  <text>{{OpenGroupExplanTwo}}</text>
+</view>
+
+<text class='priceDetails'>商品详情</text>
+<view class='textDetails'>
+<text class='priceTile'>豫玉源郑重承诺:</text>
+<text class='priceTile'>不是真玉我们出来回运费,全额退款!</text>
+<text class='pricePrompt'>请亲们认准专柜品牌,享受品牌</text>
+<text class='priceDisOne'>我们知道您想买一块货真价实的真玉!</text>
+<text class='priceDisTwo'>和田玉支持专柜验货</text>
+<text class='priceDisThree'>活动期间99.9元拼团,活动结束即将恢复原价!</text>
+</view>
+<view class='imageSet'
+wx:for='{{imageSet}}'>
+<image class='image' src='{{item}}'/>
+</view>

@@ -1,0 +1,20 @@
+<view class='clazz'style="background-color:{{color}}">
+  <view>
+    <block wx:for='{{itemInfo}}'>
+    <view class='imageText'bindtap='selectTab' id='{{index}}'>
+      <image class='image' src='{{item.image}}'/>
+      <text>{{item.text}}</text>
+    </view>
+    </block> 
+  </view>
+
+  <!-- showProduct展示商品选项容器 -->
+  <view class='content'>
+    <view class='content-item' wx:for='{{resInfo}}'>
+    <view bindtap='itemDsc' id='{{index}}'>
+      <image class='content-item-image' src='{{item.image}}' />
+      <text class='content-item-text'>{{item.text}}</text>
+    </view>
+  </view>
+</view>
+</view>

@@ -1,0 +1,149 @@
+/* 轮播图 */
+
+.contentGroup {
+  width: 100%;
+  height: 100%;
+  background-color: blueviolet;
+}
+
+.slide-image {
+  height: 100%;
+  width: 100%;
+}
+
+/* 功能区 */
+
+.content {
+  width: 100%;
+  height: 400rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #000f00;
+}
+
+.content-item {
+  width: 15%;
+  height: 40%;
+  margin: 18rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-item-image {
+  width: 100rpx;
+  height: 100rpx;
+  margin-bottom: 20rpx;
+}
+
+.content-item-text {
+  width: 100rpx;
+  height: 50rpx;
+  font-size: 35rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  color: olivedrab;
+}
+
+/* 团购热卖分类title */
+
+.GourpClass {
+  background-color: aquamarine;
+  width: auto;
+  height: 100rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20rpx;
+}
+
+.lineStyle {
+  width: 55rpx;
+  height: 3rpx;
+  margin-right: 30rpx;
+  margin-left: 30rpx;
+  background-color: brown;
+}
+
+.textStyle {
+  display: flex;
+  flex-direction: column;
+}
+
+.textChina {
+  width: 200rpx;
+  height: 50rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 40rpx;
+  justify-content: center;
+  font-weight: bold;
+}
+.textEng {
+  width: 200rpx;
+  height: 50rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  font-size: 25rpx;
+  color: #a1a1a1;
+}
+/* 团购混动展示 */
+.scroll {
+  white-space: nowrap;
+}
+.image {
+  width: 250rpx;
+  height: 250rpx;
+  margin: 10rpx;
+  display: inline-block;
+}
+/* 商品集合 */
+.shopSet {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.shopSet-item {
+  width: 340rpx;
+  height: 480rpx;
+  margin: 8rpx;
+  position: relative;
+  background-color:  thistle;
+  
+}
+.shopSet-item-image {
+  width:100%;
+  height:340rpx;
+}
+.textContent{
+  display:  flex;
+  flex-direction:  column;
+  align-items:  center;
+}
+.text {
+  width:100%;
+  height:auto;
+  margin-bottom: 10rpx;
+   }
+.textLayout{
+  display: flex;
+  flex-direction:  row;
+  justify-content: space-around;
+}  
+.textLayout-price{
+  width: auto;
+  color: red;
+  height: auto;
+}
+.textLayout-priceGOBuy{
+  width: auto;
+  height: auto;
+  color: red;
+ 
+}

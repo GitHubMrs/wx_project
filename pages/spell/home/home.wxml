@@ -1,0 +1,59 @@
+<view class='contentGroup'>
+  <swiper indicator-dots='true' circular='true' indicator-active-color='green' autoplay='true' interval='3000' duration='500'>
+    <block wx:for='{{imgUrls}}'>
+      <swiper-item>
+        <image class='slide-image' src='{{item}}' />
+      </swiper-item>
+    </block>
+  </swiper>
+
+</view>
+<!-- showProduct展示商品选项容器 -->
+
+<view class='content'>
+
+  <view bindtap='listItem'class='content-item' wx:for='{{resInfo}}'id='{{index}}'>
+    <image class='content-item-image' src='{{item.image}}' />
+    <text class='content-item-text' space='ensp'>{{item.text}}</text>
+  </view>
+</view>
+
+<!-- 团购分类 -->
+
+<view class='GourpClass'>
+  <view class='lineStyle'></view>
+  <text class='textChina'>团购分类</text>
+  <view class='lineStyle'></view>
+</view>
+
+<scroll-view  scroll-x width='750rpx'>
+  <view class='scroll'>
+<block wx:for='{{shopImageSet}}'>
+    <image class='image' src='{{item}}' />
+  </block>
+</view>
+</scroll-view>
+
+<!-- 正在热卖 -->
+<view class='GourpClass'>
+
+  <view class='lineStyle'></view>
+  <view class='textStyle'>
+    <text class='textChina'>正在热卖</text>
+    <text class='textEng' space='nbsp'>H 0 T S A L E</text>
+  </view>
+  <view class='lineStyle'></view>
+</view>
+<!-- 商品展示 -->
+<view class='shopSet'>
+<view class='shopSet-item'wx:for='{{shopItem}}'bindtap='buyClikck'>
+<view id='{{index}}'>
+<image class='shopSet-item-image' src='{{item.imageRec}}'/>
+<text class='textContent text'>{{item.text}}</text>
+<view class='textLayout'>
+<text class='textLayout-price'>{{item.price}}</text>
+<text class='textLayout-priceGOBuy'>去拼团</text>
+</view>
+</view>
+</view>
+</view>
